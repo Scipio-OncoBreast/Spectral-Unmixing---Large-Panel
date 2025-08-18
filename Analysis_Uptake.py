@@ -1,4 +1,8 @@
 #%% Imports and function definitions
+'''
+This script is used to analyze spectral data from uptake experiments.
+The data format is CZI, multiple Scenes (dyes) are expected as a function of time, single spectral images without tiling
+'''
 import numpy.typing as npt
 import LS_Functions as lsf
 import aicspylibczi as czi
